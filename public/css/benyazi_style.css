@@ -1,0 +1,59 @@
+body {
+    font-size: 10pt;
+    font-family: 'Droid Sans', 'Helvetica Neue', Helvetica, sans-serif;
+    background-color: #ffffff;
+}
+.code {
+    font-family: "Droid Sans Mono", 'Lucida Console', Monaco, monospace;
+}
+
+.leftSide {
+    border-right: 2px solid #ddd;
+}
+.leftSide_logo {
+    padding: 10px;
+    text-align: center;
+}
+.leftSide_image {
+    padding: 15px;
+    text-align: center;
+}
+.benContainer {
+    margin-top: 20px;
+}
+
+.leftSide_menu {
+ padding:5px;
+}
+.leftSide_block {
+}
+.leftSide_block__title {
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+    background-color: #eee;
+    margin-bottom: 10px;
+
+}
+.leftSide_block .dl-horizontal dt {
+    width: 100px;
+}
+.leftSide_block .dl-horizontal dd {
+    margin-left: 110px;
+}
+
+.scrumList {}
+.scrumList_title {
+    padding: 5px;
+    border-bottom: 2px solid #ddd;
+    border-radius: 3px;
+    background-color: #eee;
+}
+.scrumList_stories {
+    padding: 5px 0;
+    max-height: 700px;
+    overflow-y: auto;
+}
+.scrumList_stories .panel-body {
+    padding: 5px;
+}
